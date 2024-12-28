@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     background.src = backgroundImage;
     background.setAttribute("style",
-        "width:100%; opacity:20%;"
+        "width:100%; opacity:20%; height:auto; object-fit:"
     )
     body.style.position = "relative";
     body.appendChild(background);
